@@ -1,5 +1,5 @@
 FROM docker.io/ubuntu:20.04
-MAINTAINER Overhang.io <contact@overhang.io>
+LABEL maintainer="Overhang.io <contact@overhang.io>"
 
 RUN apt update && \
   apt upgrade -y && \
